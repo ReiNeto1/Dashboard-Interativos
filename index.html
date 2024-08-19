@@ -10,12 +10,45 @@
 <body>
     <div class="container">
         <h1>Dashboard Interativo</h1>
+        <div class="filters">
+            <label for="period">Selecione o Período:</label>
+            <select id="period">
+                <option value="1m">Último Mês</option>
+                <option value="3m">Últimos 3 Meses</option>
+                <option value="6m">Últimos 6 Meses</option>
+                <option value="1y">Último Ano</option>
+            </select>
+            <button id="fetchData">Buscar Dados</button>
+        </div>
         <div class="charts">
             <canvas id="lineChart"></canvas>
             <canvas id="barChart"></canvas>
         </div>
         <button id="updateData">Atualizar Dados</button>
     </div>
+    <div class="filters">
+        <label for="period">Selecione o Período:</label>
+        <select id="period">
+            <option value="1m">Último Mês</option>
+            <option value="3m">Últimos 3 Meses</option>
+            <option value="6m">Últimos 6 Meses</option>
+            <option value="1y">Último Ano</option>
+        </select>
+        <label for="company">Selecione a Empresa:</label>
+        <select id="company">
+            <option value="IBM">IBM</option>
+            <option value="AAPL">Apple</option>
+            <option value="GOOGL">Google</option>
+            <option value="MSFT">Microsoft</option>
+        </select>
+        <label for="metric">Selecione a Métrica:</label>
+        <select id="metric">
+            <option value="price">Preço de Fechamento</option>
+            <option value="volume">Volume de Negociações</option>
+        </select>
+        <button id="fetchData">Buscar Dados</button>
+    </div>
+    
     <script src="script.js"></script>
 </body>
 </html>
