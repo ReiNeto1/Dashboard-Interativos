@@ -36,3 +36,6 @@ Sinta-se à vontade para contribuir com melhorias e novas funcionalidades!
 ## Licença
 
 Este projeto está licenciado sob a Licença MIT.
+
+
+## Reinaldo Fernandes 
